@@ -1,0 +1,385 @@
+body{
+  background-color: #463318;
+}
+
+/* main */
+.main-body{
+    background-image: url(bg-web.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+p {
+    margin: 0px;
+}
+.dazai{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    width: 250px;
+    height: auto;
+}
+.transparancy{
+    font-size: larger;
+    width: auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+}
+.transparancy header{
+    top: 0;
+    padding-left: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #555;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    background-color: #333;
+  }
+  .container-nav{
+    margin: 0;
+  }
+  .navbar ul{
+    list-style: none;
+    margin: 14px;
+    padding: 0;
+  }
+  .navbar li{
+    display: inline-block;
+    margin: 0px 15px;
+  }
+  .navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: bacground-color 0.3s ease;
+  }
+  .navbar a:hover{
+    background-color: #555;
+  }
+  .navbar p{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+  }
+  .container-content{
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .transparancy p{
+    text-align: justify;
+    text-indent: 50px;
+  }
+  .container-profil{
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dazai2 {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    width: 150px;
+    height: auto;
+  }
+  .karakter{
+    margin-left: auto;
+  }
+  .profil{
+    text-align: center;
+    color: white;
+    background-color: #555;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .konten1 {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .karakter-content{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+  }
+  .konten2 {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .pengisi{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    width: 150px;
+    height: auto;
+  }
+  .pengisi-suara-content {
+    margin-left: auto;
+    width: 80%;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+  }
+  .karakter-content header{
+    text-align: right;
+    top: 0;
+    padding-right: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #555;
+  }
+  .pengisi-suara-content header{
+    top: 0;
+    padding-left: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #555;
+  }
+  .pengisi-suara-content p {
+    text-indent: 50px;
+  }
+  .konten3 {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .autor {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    width: 150px;
+    height: auto;
+  }
+  .autor-img{
+    margin-left: auto;
+  }
+  .content-autor {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+  }
+  .content-autor header{
+    text-align: right;
+    top: 0;
+    padding-right: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #555;
+  }
+  .container-profil p{
+    text-align: justify;
+  }
+  .container-other{
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .other {
+    text-align: center;
+    color: white;
+    background-color: #555;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .footer{
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    margin-top: auto;
+    width: 100%; 
+  }
+  .other:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /*form*/
+  .form-body{
+    background-color: #111111;
+    background-image: url(bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .form {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px;
+  }
+  .form h2{
+    background-color: #555;
+    text-align: center;
+    color: white;
+  }
+  .form label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  .grup-gender{
+    display: flex;
+    gap: 10px;
+  }
+  .interest-grup{
+    display: flex;
+    gap: 10px;
+  }
+  .form textarea{
+    resize: vertical;
+    height: 150px;
+  }
+  input[type="text"], 
+  input[type="email"], 
+  input[type="password"], 
+  select, 
+  textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .form button{
+    background-color: #555;
+    color: rgb(255, 252, 252);
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px;
+  }
+  .form button:hover{
+    background-color: white;
+    color: black;
+  }
+
+  /*tabel*/
+
+.tabel-body{
+  background-color: #111111;
+}
+.tabel-title h1{
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+.table-container {
+  max-width: 700px;
+  margin: 0 auto;
+  overflow-y: auto; 
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+  background-color: #fff; 
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+  .container-content{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .transparancy{
+    width: auto;
+  }
+
+  .form{
+    max-width: 400px;
+  }
+
+  .table-container{
+    max-width: 90%;
+    height: 500px;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 576px){
+  .navbar li{
+    margin: 0 5px;
+  }
+  .container-content{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transparancy{
+    width: auto;
+  }
+
+  .form{
+    max-width: 300px;
+  }
+  .interest-grup{
+    display: flex;
+  }
+
+  .table-container{
+    max-width: 90%;
+    height: 500px;
+  }
+}

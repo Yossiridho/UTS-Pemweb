@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-body">
+    <div class="form">
+        <h2>Form Pendaftaran</h2>
+        <form action="table.html" method="get">
+            <div class="personal">
+                <legend>Informasi Pribadi</legend>
+
+                <label for="nama">Nama lengkap</label>
+                <input type="text" id="nama" name="nama-lengkap" placeholder="masukan nama" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email-pengguna" id="email" placeholder="masukan email" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="masukan password" required>
+
+            </div>
+            <div class="Gender">
+                <legend>Gender</legend>
+
+                <div class="grup-gender">
+                    <label for="male">male</label>
+                    <input type="radio" id="male" name="gender" required>
+
+                    <label for="female">female</label>
+                    <input type="radio" id="female" name="gender" required>
+                </div>
+            </div>
+            <div class="Interest">
+                <legend>Interest</legend>
+
+                <div class="interest-grup">
+                    <label for="coding">coding</label>
+                    <input type="checkbox" name="interest" id="coding">
+
+                    <label for="music">music</label>
+                    <input type="checkbox" name="interest" id="music">
+
+                    <label for="sport">sport</label>
+                    <input type="checkbox" name="interest" id="sport">
+
+                    <label for="art">art</label>
+                    <input type="checkbox" name="interest" id="art">
+                </div>
+                
+            </div>
+            <div class="Country">
+                <legend>Country</legend>
+
+                <label for="country">pilih kota asal</label>
+                <select id="country" required>
+                    <option value="lampung">lampung</option>
+                    <option value="jakarta">jakarta</option>
+                    <option value="medan">medan</option>
+                    <option value="palembang">palembang</option>
+                    <option value="padang">padang</option>
+                </select>
+            </div>
+            <div class="additional">
+                <legend>Additional Information</legend>
+                <label for="bio">Tentang Anda</label>
+                <textarea name="bio" id="bio" placeholder="Tulis Sesuatu Tentang Anda...."></textarea>
+            </div>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
